@@ -37,8 +37,8 @@ Keep in mind that:
 You role as a frontend developer for Frichti consists in developing features and products that helps our customer to order the best dishes !
 
 ### User stories
-1. As a user I need to see a list Frichti's products from the menu that has slug defined to `plats-cuisines-group`.
-2. As a user I need to see the products splited according to their categories. (tip: use the collections payload and the menuTree)
+1. As a user I need to see a list Frichti's products from the menu that has `slug` defined to `plats-cuisines-group`.
+2. As a user I need to see the products splited according to their categories.
 3. As a user I need to see tags associated to each product. (tip: use the tags payload)
 4. As a user I need to filter products according to their name (textual research).
 5. As a user I need to have a responsive/adaptive interface that is usable in web-mobile.
@@ -46,8 +46,7 @@ You role as a frontend developer for Frichti consists in developing features and
 ### Ressources
 The api documentation is accessible at [this link](https://frichti-menu-mock.herokuapp.com/)
 
-- API endpoint to fetch the menu tree. `GET https://frichti-menu-mock.herokuapp.com/menuTree`
-- API endpoint to fetch all the collections. `GET https://frichti-menu-mock.herokuapp.com/collections`
+- API endpoint to fetch the menu tree. `GET https://frichti-menu-mock.herokuapp.com/menu`
 - API endpoint to fetch all the tags. `GET https://frichti-menu-mock.herokuapp.com/tags`
 
 ## Technical test assessment
